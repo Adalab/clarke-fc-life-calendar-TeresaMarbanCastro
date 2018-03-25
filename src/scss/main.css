@@ -1,8 +1,44 @@
+.face {
+  width: 100px;
+  height: 100px; }
+
+.calendar_face {
+  list-style: none;
+  border: 2px solid #616A6B;
+  display: grid;
+  grid-gap: 10px;
+  list-style-type: none;
+  padding-left: 20px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+  width: 250px;
+  margin-left: 25px; }
+
+.face--happy {
+  background-image: url("../images/smile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none; }
+
+.face--sad {
+  background-image: url("../images/sad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none; }
+
 .editor__container {
   margin: 50px 50px; }
 
 button {
   margin: 15px 5px; }
+
+.add__li {
+  list-style-type: none; }
+
+.add__feelings {
+  text-decoration: none;
+  color: black;
+  font-size: 100px; }
 
 body {
   margin: 0;
